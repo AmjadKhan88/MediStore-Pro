@@ -1,0 +1,16 @@
+.search-bar:hover {
+    border: 1px solid tomato;
+}
+
+.textarea-style textarea{
+    outline: none;
+    border: 1px solid rgba(72, 231, 248, 0.665);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(133, 130, 130);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}

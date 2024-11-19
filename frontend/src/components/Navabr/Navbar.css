@@ -1,0 +1,109 @@
+
+header .logo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+.logo span {
+    font-weight: 600;
+    font-size: max(1.5vw,14px);
+    color: #4f4f4a;
+}
+.logo span strong {
+    color: #16a862;
+}
+header .menu {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4f4f4a;
+    font-size: max(1.2vw,15px);
+}
+
+.menu a:hover {
+    color: #16a862;
+    transform: scale(1.1);
+}
+
+header .profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    width: 40px;
+    border-radius: 50%;
+    outline: 2px solid tomato;
+    cursor: pointer;
+}
+
+.profile:hover img{
+    outline-color: #16a862;
+    transform: scale(1.1);
+    margin-bottom: 1px;
+}
+
+.profile div {
+    position: absolute;
+    top: 100%;
+    left: -13px;
+    margin-top: 2px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    z-index: 2;
+    border-radius: 5px;
+}
+.profile div a {
+    text-decoration: none;
+    color: #4f4f4a;
+}
+
+.profile div a:hover {
+    color: #16a862;
+    transform: scale(1.1);
+}
+
+.profile div button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: red;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.profile div button:hover {
+    color: #16a862;
+    transform: scale(1.1);
+}
+
+.profile:hover div {
+    display: flex;
+}
+
+.header-hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: #4f4f4a;
+    margin: 0;
+}
+
+header .menu a.active{
+    color: #16a862;
+    transform: scale(1.1);
+}

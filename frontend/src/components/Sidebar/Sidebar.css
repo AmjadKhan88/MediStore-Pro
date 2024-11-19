@@ -1,0 +1,32 @@
+.sidebar-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+    padding: 5px 10px 5px 15px;
+}
+
+.sidebar-content a {
+    text-decoration: none;
+    color: #4f4f4a;
+    display: flex;
+    align-items: center;
+    font-size: max(1.2vw,13px);
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.sidebar-content .icon {
+    font-size: max(1.3vw,15px);
+    margin-right: 5px;
+}
+.sidebar-content a:hover {
+    background-color: rgb(204, 202, 202);
+    
+}
+.sidebar-content a.active {
+    background-color: rgb(204, 202, 202);
+}
